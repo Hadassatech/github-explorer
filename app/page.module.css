@@ -1,0 +1,21 @@
+.topControls {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  z-index: 10;
+  display: flex;
+  gap: 10px;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.loading {
+  text-align: center;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.bottomSpace {
+  height: 20vh;
+}

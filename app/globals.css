@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  margin: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+body.dark {
+  background: #121212;
+  color: white;
+}
+.search-input {
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 1rem;
+}
+.repo-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 70px;
+}
+.repo-card {
+  background: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+}
+body.dark .repo-card {
+  background-color: #1e1e1e;
+  color: white;
+}
+.repo-meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+.repo-details {
+  max-width: 700px;
+  margin: auto;
+  padding: 1rem;
+}
+.contributor-list {
+  list-style: none;
+  padding: 0;
+}
+.contributor-list li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
