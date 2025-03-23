@@ -25,18 +25,7 @@ It supports infinite scrolling, detailed views, sorting, and a dark mode toggle.
 - 🌙 **Dark mode toggle**
 - 🔙 **Back button** restores previous search and scroll
 - 👤 **Contributor details** (avatar, name, commits) with caching
-- ✅ **Optimized performance** with `useMemo` and `useCallback`
-
----
-
-## 📁 Project Structure
-
-app/ ├─ hooks/ │ └─ useSearchRestore.js 
-# custom hook for saving/restoring search ├─ utils/ │ └─ github.js 
-# utility for fetching repos ├─ repo/[user]/[repo]/page.js 
-# dynamic repo details route └─ page.js 
-# HomePage with search + infinite scroll
-
+- ✅ **Optimized performance** with `useMemo`,  `useCallback` and debounce
 
 ---
 
