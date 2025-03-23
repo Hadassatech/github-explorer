@@ -1,4 +1,11 @@
+
+
+![צילום מסך 2025-03-23 154402](https://github.com/user-attachments/assets/7faf99d7-4bae-4620-bce3-e14c7ec6418d)
+![צילום מסך 2025-03-23 154428](https://github.com/user-attachments/assets/8d9c5e83-1517-4fb9-a19e-2e1d1f184e72)
+![צילום מסך 2025-03-23 154321](https://github.com/user-attachments/assets/b36c1a84-5ba8-4a54-9e7f-ba2d4881d300)
+
 # GitHub Repository Explorer
+
 
 A modern web application built with **Next.js** and **React** that allows users to explore GitHub repositories by username.  
 It supports infinite scrolling, detailed views, sorting, and a dark mode toggle.
