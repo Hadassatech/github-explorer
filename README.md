@@ -25,7 +25,7 @@ It supports infinite scrolling, detailed views, sorting, and a dark mode toggle.
 - 🌙 **Dark mode toggle**
 - 🔙 **Back button** restores previous search and scroll
 - 👤 **Contributor details** (avatar, name, commits) with caching
-- ✅ **Optimized performance** with `useMemo`,  `useCallback` and debounce
+- ✅ **Optimized performance** with `useMemo`,  `useCallback` and `debounce`
 
 ---
 
